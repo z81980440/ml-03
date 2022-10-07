@@ -1,5 +1,4 @@
 #include<iostream>
-#include"structs.h"
 #include"functions.h"
 
 using namespace std;
@@ -10,5 +9,6 @@ int main() {
     set_current_origin(&origin);
     init_origin();
     bind_point(1,1);
+    bind_point(1,2);
 
 }
