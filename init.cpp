@@ -8,7 +8,9 @@ int main() {
     origin origin;
     set_current_origin(&origin);
     init_origin();
+    if(origin.x != nullptr)
+        cout << "nullptr" <<endl;
     bind_point(1,1);
-    bind_point(1,2);
+    //bind_point(1,2);
 
 }

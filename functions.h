@@ -139,8 +139,8 @@ void bind_x_axis(int val, axis_point *axis)
 void bind_y_axis(int val, axis_point *axis)
 {
     // to be optimize
-    axis_point *current = currentOrigin->y;
-    axis_point *before;
+    axis_point * current = currentOrigin->y;
+    axis_point * before;
     while (current != nullptr)
     {
         if (current->value > val)
