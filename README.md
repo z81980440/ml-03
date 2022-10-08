@@ -1,3 +1,3 @@
 # ML-03
 
-3rd research in machine learning.
+Idea is to find out nearest point in a preplotted 2d plane for a given point.
